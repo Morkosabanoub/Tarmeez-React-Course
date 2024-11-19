@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer {    
+    display: flex;
+    width: 98%;
+    margin: 1% 1%;
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+    background-color: #333;
+    color: white;
+}
+
+.footer div {
+    text-align: center;
+    height: 40px;
+    width: 23%;
+    margin: 1%;
+    
+}
+.footer h2{
+    height: 25px;
+    line-height:25px ;
+    /* background-color: beige; */
+
+
+
+}
+
+.footer p{
+height: 100px;
+line-height:100px ;
+color: black;
+}

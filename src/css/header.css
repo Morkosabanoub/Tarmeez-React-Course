@@ -1,0 +1,239 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* upper-menu */
+
+.upper-menu {
+    margin: 1% 0.5%;
+    width: 98%;
+    height: 40px;
+    display: flex;
+    font-size: 12px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    position: fixed;
+    top: 0px;
+    box-shadow: 5px 5px 25px #5a5a5a,
+        -5px -5px 25px #ffffff,
+    
+}
+
+.upper-menu nav {
+    /* background-color: rgb(250,250,250); */
+    display: flex;
+    width: 88%;
+    height: 40px;
+    text-transform: uppercase;
+
+
+}
+
+.logo {
+    /* background-color: antiquewhite; */
+    display: inline-block;
+    width: 11%;
+    height: 40px;
+    padding-left: 1%;
+}
+
+.logo img {
+    /* background-color: antiquewhite; */
+    width: 100%;
+    height: 40px;
+
+}
+
+.menu {
+    /* background-color: aqua; */
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+
+.menu li {
+    /* background-color: blue; */
+    display: inline-block;
+    min-width: 100PX;
+    height: 100%;
+    position: relative;
+    /* border: solid 2px crimson; */
+    border-radius: 5px;
+    margin: 3px 2%;
+    padding: 1px 0px;
+    text-align: center;
+
+
+}
+
+.menu li a {
+    /* background-color: chartreuse; */
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    white-space: nowrap;
+
+}
+
+.upper-meun-dropdown {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: auto;
+    visibility: hidden;
+    border-radius: 3px;
+}
+
+.upper-meun-dropdown li {
+    background-color: aliceblue;
+    width: 150px;
+    height: 40px;
+    padding-bottom: 20px;
+    line-height: 40px;
+    box-shadow: 5px 5px 25px #5a5a5a,
+        -5px -5px 25px #ffffff
+}
+
+.menu li:hover .upper-meun-dropdown {
+    visibility: visible;
+}
+
+
+.upper-meun-dropdown li a {
+    padding: 0PX 10PX;
+
+}
+
+.menu li:hover {
+    background-color: rgb(31, 145, 198);
+    color: black;
+
+}
+
+.active a:hover {
+    color: rgb(31, 145, 198);
+}
+
+.upper-menu nav form {
+    /* background-color: #ED494D; */
+    display: flex;
+    width: 20%;
+    height: 40px;
+    position: relative;
+    margin-right: 10px;
+
+
+}
+
+.upper-menu nav form input {
+    background-color: rgb(252, 252, 252);
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin: 0% 0%;
+    border-radius: 20px;
+    border: solid 1px rgb(31, 145, 198);
+    box-shadow: 1px 1px 5px #5a5a5a,
+        -5px -5px 25px #ffffff;
+    color: rgb(31, 145, 198);
+}
+
+.upper-menu nav form button {
+    background-color: aliceblue;
+    display: inline-block;
+    width: 15%;
+    height: 26px;
+    margin: 7px 0px;
+    border-radius: 20px;
+    position: absolute;
+    left: 84%;
+    border: none;
+
+
+
+}
+
+.log-sign-in {
+    display: flex;
+    width: 30%;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.log-sign-in ul {
+    padding: 0;
+}
+
+.log-sign-in li {
+    list-style: none;
+    position: relative;
+    margin: 0;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    width: 100PX;
+    text-align: center;
+
+}
+
+.log-sign-in li a {
+    text-decoration: none;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+
+
+}
+
+.upper-meun-lang {
+    height: 40px;
+}
+
+.upper-meun-dropdown-lang {
+    position: absolute;
+    list-style: none;
+    padding-top: 20PX;
+    margin: 0;
+    visibility: hidden;
+}
+
+.upper-meun-dropdown-lang li {
+    background-color: aliceblue;
+    margin: 3px 0px;
+    width: 100PX;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    box-shadow: 5px 5px 25px #5a5a5a,
+        -5px -5px 25px #ffffff
+}
+
+
+.upper-meun-lang li:hover .upper-meun-dropdown-lang {
+    visibility: visible;
+}
+
+.log-sign-in li:hover {
+    background-color: rgb(31, 145, 198);
+    color: black;
+}
+

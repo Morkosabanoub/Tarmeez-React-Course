@@ -1,0 +1,67 @@
+.logsignin{
+background-color: rgb(104, 101, 97);
+width: 60%;
+margin: 2% auto;
+}
+.login,
+.Signin {
+ 
+  margin: 0 auto;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.login h2,
+.Signin h2 {
+  width: 10%;
+  height: 40px;
+  margin: 0 auto;
+}
+.login input,
+.Signin input {
+  width: 40%;
+  height: 30px;
+  margin: 1% auto;
+  border-radius: 20px;
+  border-color: aqua;
+}
+
+.PaymentMethod{
+    width: 60%;
+display: inline-block;
+justify-items: center;
+}
+.PaymentMethod select{
+    background-color: blueviolet;
+    width:35%;
+    height: 20px;
+    display: inline-block;
+    margin: 0 auto;
+    justify-items: center;
+
+}
+.PaymentMethod option{
+    width: 90%;
+    color: #000;
+    text-align: center;
+}
+.checkbox{
+  margin: 1% auto;
+  padding-left: 8%;
+  width: 40%;
+  height: 20px;
+
+}
+
+.logsingin-button  button{
+display: block;
+width: 10%;
+  height: 30px;
+  margin: 0 auto;
+  padding: 0 auto;
+  border-radius: 30px 30px;
+  border-color: azure;
+  color: black;
+  background-color: rgb(26, 111, 111);
+  justify-items: center;
+}
